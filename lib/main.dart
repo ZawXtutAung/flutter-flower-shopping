@@ -180,7 +180,7 @@ class _MainActivityState extends State<MainActivity> {
                                   PreViewPage(
                                       datas:
                                           'https://i.pinimg.com/564x/b2/0c/e4/b20ce463501c850ebcb4b9cddbefb1ec.jpg',
-                                      datas2: 'US 5.99'));
+                                      datas2: 'US \$5.99'));
                             },
                             child: Column(
                               mainAxisSize: MainAxisSize.max,
@@ -201,7 +201,7 @@ class _MainActivityState extends State<MainActivity> {
                                     children: [
                                       Text('Land Miracle '),
                                       Text(
-                                        'US 5.99',
+                                        'US \$5.99',
                                         style: TextStyle(
                                           color: Colors.blue,
                                           decoration: TextDecoration.underline,
@@ -228,7 +228,7 @@ class _MainActivityState extends State<MainActivity> {
                                   PreViewPage(
                                       datas:
                                           'https://media1.popsugar-assets.com/files/thumbor/OVUWFmjYPPwc8yqqvgFwnlR4GHQ/0x77:1456x1533/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2020/06/03/838/n/1922794/2c0210f35ed7f4e940fcc1.10021346_/i/Best-Indoor-Flower-Plants-Beginners.jpg',
-                                      datas2: 'US 5.00'));
+                                      datas2: 'US \$5.00'));
                             },
                             child: Column(
                               mainAxisSize: MainAxisSize.max,
@@ -250,7 +250,7 @@ class _MainActivityState extends State<MainActivity> {
                                     children: [
                                       Text('Anthurium '),
                                       Text(
-                                        'US 5.00',
+                                        'US \$5.00',
                                         style: TextStyle(
                                           color: Colors.blue,
                                           decoration: TextDecoration.underline,
@@ -277,7 +277,7 @@ class _MainActivityState extends State<MainActivity> {
                                   PreViewPage(
                                       datas:
                                           'https://i.pinimg.com/564x/9f/55/f3/9f55f3d7dacddea8d1c5c5154e6ff7fe.jpg',
-                                      datas2: 'US 5'));
+                                      datas2: 'US \$5'));
                             },
                             child: Column(
                               mainAxisSize: MainAxisSize.max,
@@ -299,7 +299,7 @@ class _MainActivityState extends State<MainActivity> {
                                     children: [
                                       Text('Land Miracle '),
                                       Text(
-                                        'US 5',
+                                        'US \$5',
                                         style: TextStyle(
                                           color: Colors.blue,
                                           decoration: TextDecoration.underline,
@@ -326,7 +326,7 @@ class _MainActivityState extends State<MainActivity> {
                                   PreViewPage(
                                       datas:
                                           'https://i.pinimg.com/564x/60/67/3c/60673c94cd69d3dc7322bbbff4e2a0d8.jpg',
-                                      datas2: 'US 5.99'));
+                                      datas2: 'US \$5.99'));
                             },
                             child: Column(
                               mainAxisSize: MainAxisSize.max,
@@ -349,7 +349,7 @@ class _MainActivityState extends State<MainActivity> {
                                     children: [
                                       Text('Land Miracle '),
                                       Text(
-                                        'US 5.99',
+                                        'US \$5.99',
                                         style: TextStyle(
                                           color: Colors.blue,
                                           decoration: TextDecoration.underline,
@@ -429,7 +429,7 @@ class _MainActivityState extends State<MainActivity> {
                                   children: [
                                     Text('MyosotisSylvatica '),
                                     Text(
-                                      'USD 10',
+                                      'USD \$10',
                                       style: TextStyle(
                                         color: Colors.blue,
                                         decoration: TextDecoration.underline,
@@ -469,7 +469,7 @@ class _MainActivityState extends State<MainActivity> {
                                   children: [
                                     Text('Miro '),
                                     Text(
-                                      'USD 12',
+                                      'USD \$12',
                                       style: TextStyle(
                                         color: Colors.blue,
                                         decoration: TextDecoration.underline,
@@ -509,7 +509,7 @@ class _MainActivityState extends State<MainActivity> {
                                   children: [
                                     Text('Miro '),
                                     Text(
-                                      'USD 12',
+                                      'USD \$12',
                                       style: TextStyle(
                                         color: Colors.blue,
                                         decoration: TextDecoration.underline,

@@ -62,7 +62,7 @@ class PreViewPage extends MaterialPageRoute {
                                             ],
                                             borderRadius:
                                                 BorderRadius.circular(10)),
-                                        child: Icon(Icons.wb_cloudy),
+                                        child: Icon(Icons.thermostat_outlined),
                                       ),
                                       Container(
                                         padding: EdgeInsets.all(20),
