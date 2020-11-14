@@ -34,11 +34,10 @@ samples, guidance on mobile development, and a full API reference.
                       fillColor: Colors.white,
                       helperStyle: TextStyle(color: Colors.green),
                       hintText: 'Search...'),
-                )) ```
+                )) 
 
 **Flutter Search Card **
 
-                    ```dart
                         Card(
                           //margin: EdgeInsets.all(2),
                           child: InkWell(
