@@ -36,7 +36,7 @@ samples, guidance on mobile development, and a full API reference.
                       hintText: 'Search...'),
                 )) 
 
-**Flutter Search Card **
+> Flutter Search Card 
 
                         Card(
                           //margin: EdgeInsets.all(2),
