@@ -87,3 +87,12 @@ samples, guidance on mobile development, and a full API reference.
                             ),
                           ),
 ```
+> Go to Next Page
+```dart
+                           Navigator.push(
+                                  context,
+                                  PreViewPage(
+                                      datas:'Data',
+                                      datas2: 'data'));
+
+```
