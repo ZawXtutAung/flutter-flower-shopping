@@ -35,8 +35,7 @@ samples, guidance on mobile development, and a full API reference.
                       helperStyle: TextStyle(color: Colors.green),
                       hintText: 'Search...'),
                 ))
-                
-                 ```
+```
 
 > Flutter Search Card 
 
