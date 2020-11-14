@@ -39,6 +39,7 @@ samples, guidance on mobile development, and a full API reference.
 
 > Flutter Search Card 
 
+```dart
                         Card(
                           //margin: EdgeInsets.all(2),
                           child: InkWell(
@@ -85,5 +86,4 @@ samples, guidance on mobile development, and a full API reference.
                               ],
                             ),
                           ),
-                          color: Colors.white,
-                        )
+```
