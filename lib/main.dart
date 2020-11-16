@@ -10,10 +10,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Material App',
       home: Scaffold(
-        // appBar: AppBar(
-        //   backgroundColor: Colors.greenAccent[400],
-        //   title: Text('Material App Bar'),
-        // ),
+        appBar: AppBar(
+          backgroundColor: Colors.greenAccent[400],
+          title: Text('Material App Bar'),
+        ),
         body: MainActivity(),
         drawer: Drawer(
           child: ListView(
@@ -64,48 +64,44 @@ class _MainActivityState extends State<MainActivity> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Expanded(
+        Container(
           child: Stack(children: [
-            Expanded(
-              child: Container(
-                child: Column(
-                  children: [
-                    AppBar(
-                      elevation: 0,
-                      backgroundColor: Colors.greenAccent[400],
-                      title: Text('Flower Shop App'),
-                    ),
-                    Container(
-                      margin: EdgeInsets.all(20),
-                      child: Row(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Text(
-                              'Flower',
-                              style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 30,
-                                  foreground: Paint()
-                                    ..style = PaintingStyle.stroke
-                                    ..strokeWidth = 2
-                                    ..color = Colors.white),
-                            ),
-                            CircleAvatar(
-                              backgroundImage: NetworkImage(
-                                  'https://scontent.fmdl2-1.fna.fbcdn.net/v/t1.0-9/92629871_2631049577173631_1157103484198191104_o.jpg?_nc_cat=107&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeHBDZzd2kXhE-FpNlSrlopQgL4mKT_233SAviYpP_bfdPi9J6lgP_77kLMIlzdbvageKOHFDdlrxb7f1rutteIH&_nc_ohc=cQc8LCKe_YwAX90fCR7&_nc_ht=scontent.fmdl2-1.fna&oh=3af1e73c336cff56051c8ad647d85441&oe=5FD48833'),
-                              //child:Image(image: null,),
-                              // backgroundColor: Colors.white,
-                            )
-                          ]),
-                    )
-                  ],
-                ),
-                decoration: BoxDecoration(
-                    color: Colors.greenAccent[400],
-                    borderRadius: BorderRadius.circular(20)),
-                margin: EdgeInsets.only(bottom: 23),
+            Container(
+              height: 150,
+              child: Column(
+                children: [
+                  Container(
+                    margin: EdgeInsets.all(20),
+                    child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            'Flower',
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 30,
+                                foreground: Paint()
+                                  ..style = PaintingStyle.stroke
+                                  ..strokeWidth = 2
+                                  ..color = Colors.white),
+                          ),
+                          CircleAvatar(
+                            backgroundImage: NetworkImage(
+                                'https://scontent.fmdl2-1.fna.fbcdn.net/v/t1.0-9/92629871_2631049577173631_1157103484198191104_o.jpg?_nc_cat=107&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeHBDZzd2kXhE-FpNlSrlopQgL4mKT_233SAviYpP_bfdPi9J6lgP_77kLMIlzdbvageKOHFDdlrxb7f1rutteIH&_nc_ohc=cQc8LCKe_YwAX90fCR7&_nc_ht=scontent.fmdl2-1.fna&oh=3af1e73c336cff56051c8ad647d85441&oe=5FD48833'),
+                            //child:Image(image: null,),
+                            // backgroundColor: Colors.white,
+                          )
+                        ]),
+                  )
+                ],
               ),
+              decoration: BoxDecoration(
+                  color: Colors.greenAccent[400],
+                  borderRadius: BorderRadius.only(
+                      bottomLeft: Radius.circular(30),
+                      bottomRight: Radius.circular(30))),
+              margin: EdgeInsets.only(bottom: 23),
             ),
             Positioned(
                 right: 10,
@@ -127,9 +123,8 @@ class _MainActivityState extends State<MainActivity> {
                 ))
           ]),
         ),
-        //  Drawer(),
         Expanded(
-          flex: 2,
+          // flex: 2,
           child: Container(
             padding: EdgeInsets.fromLTRB(5, 5, 5, 5),
             child: SingleChildScrollView(
